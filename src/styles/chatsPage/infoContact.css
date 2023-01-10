@@ -1,0 +1,52 @@
+.contentInfoContact{
+  width: 100%;
+  height: 100%;
+}
+  .titleInfoContact{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 30%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.103);
+    display: flex;
+    align-items: center;
+  }
+    .titleContact{
+      font-size: 180%;
+      font-weight: bold;
+    }
+  .profileContact{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .profilContactImage{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-bottom: 2%;
+    }
+    .profileNameContact{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      font-size: 150%;
+      font-weight: bold;
+    }
+    .companyContact{
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 100%;
+      font-style: italic;
+      background-color: aqua;
+      box-sizing: border-box;
+      padding: 0.5px 1%;
+      border-radius: 10px;
+    }

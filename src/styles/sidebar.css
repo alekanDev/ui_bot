@@ -1,0 +1,35 @@
+.sidebarContent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  width: 100%;
+  /* background-color: black; */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  li{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 0;
+    border-radius: 10px;
+    color: black;
+    }
+    li:hover{
+      background-color: #23272e2c;
+      cursor: pointer;
+      color: white;
+    }
+  .liActive{
+    background-color: #23272e2c;
+    color: #EA094B;
+    /* border-right: solid 2px black; */
+  }
