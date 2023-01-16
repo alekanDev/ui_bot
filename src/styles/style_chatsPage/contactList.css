@@ -1,0 +1,122 @@
+.contentContactList{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .searchContact{
+    background-color: rgba(0, 0, 0, 0.13);
+    width: 98%;
+    height: 10%;
+    border-radius: 10px;
+  }
+  .findContact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2%;
+    }
+    .inputContact{
+    background-color: rgba(0, 0, 0, 0);
+    width: 90%;
+    border: none;
+    outline: none;
+    margin-left: 2%;
+    font-size: 11px;
+    color: rgb(41, 41, 41);
+    }
+    .btnSearchContact{
+      background-color: rgba(0, 0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+    }
+      .btnSearchContact:hover{
+        cursor: pointer;
+        color: #EA094B;
+      }
+  .historyChats{
+    /* background-color: black; */
+    width: 98%;
+    height: 10%;
+    box-sizing: border-box;
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+    .titleHistoryChats{
+      /* background-color: #EA094B; */
+      font-size: 11.5px;
+      box-sizing: border-box;
+      margin-left: 2%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .addChat{
+      background-color: rgba(0, 0, 0, 0.13);
+      width: 8%;
+      height: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+      .addChat:hover{
+        cursor: pointer;
+        color: #EA094B;
+      }
+  .contactNameList{
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 3%;
+  }
+    .contactNameList::-webkit-scrollbar{
+      width: 10px;
+    }
+  .contactNameList{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: flex-end;  */
+    /* align-items: center; */
+  }
+    .chatItem{
+      background-color: rgba(0, 0, 0, 0.192);
+      width: 100%;
+      height: 60px;
+      display: flex;
+      justify-content: space-around;
+    }
+      .profilePhoto{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .imgChatItem{
+          width: 35%;
+          height: 40%;
+          border-radius: 50%;
+          border: solid black 1px;
+        }
+      .nameChatItem{
+        width: 60%;
+        font-size: 150%;
+        text-align: left;
+      }

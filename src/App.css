@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.Content{
+    background-color: rgba(0, 0, 0, 0.082);
+    width: 99%;
+    height: 98%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

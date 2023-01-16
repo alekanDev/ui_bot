@@ -1,0 +1,12 @@
+p{
+font-size: 8px;
+color: black;
+}
+.footerContent{
+  /* background-color: black; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
