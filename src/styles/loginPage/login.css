@@ -1,3 +1,6 @@
+.swal2-popup.swal2-toast.swal2-icon-error.swal2-show {
+  font-size: 15px;
+}
 .contentLogin{
   background-image: url('../../images/backgroundLogin.png');
   background-size: cover;
@@ -55,7 +58,7 @@
       background-color: rgba(255, 255, 255, 0.212);
       color: rgb(255, 255, 255);
       text-align: center;
-      font-size: 150%;
+      font-size: 140%;
       text-transform: lowercase;
     }
     .submitButton{

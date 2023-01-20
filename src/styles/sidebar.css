@@ -33,3 +33,11 @@ ul{
     color: #EA094B;
     /* border-right: solid 2px black; */
   }
+
+  .iconLogout{
+    color: gray;
+  }
+  .iconLogout:hover{
+    cursor: pointer;
+    color: #EA094B;
+  }

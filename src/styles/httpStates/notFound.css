@@ -1,0 +1,42 @@
+.notFoundContent{
+  background-image: url('../../images/httpStates/404_noFound.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.messageNotFound{
+  /* background-color: black; */
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 300%;
+    /* margin-left: 45%; */
+    box-sizing: border-box;
+    padding-top: 40%;
+    /* padding-right: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spanNotFound{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    color: #ea094cbe;
+    text-shadow: 1px 1px white;
+  }
+  .btnBack{
+      background-color: #ea094cbe;
+      font-family: 'Roboto Mono', monospace;
+      width: 13%;
+      height: 32px;
+      border: none;
+      border-radius: 25px;
+      font-size: 60%;
+      color: white;
+      margin-top: 2%;
+    }
+    .btnBack:hover{
+      cursor: pointer;
+      background-color: #ea094cd7;
+    }
